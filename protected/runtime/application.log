@@ -1,0 +1,8 @@
+2016/09/07 11:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\framework\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\framework\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\advanced\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/advanced/index.php?r=gii
+---
